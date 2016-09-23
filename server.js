@@ -17,6 +17,10 @@ app.get('/article-one',function (req, res){
     res.send('Article one requested and ....');
     
 });
+app.get('/article-two',function (req, res){
+    res.send('Article one two requested and ....');
+    
+});
 
 
 app.get('/ui/madi.png', function (req, res) {
