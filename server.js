@@ -24,14 +24,11 @@ var articleone= {
     
 };
 
-var htmltemplate =
-<html>
-<head>
-<title>
 
 
 
-;
+
+
 
 
 app.get('/article-one',function (req, res){
