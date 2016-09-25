@@ -24,7 +24,17 @@ var articleone= {
     
 };
 
-   app.get('/article-one',function (req, res){
+var htmltemplate =
+<html>
+<head>
+<title>
+
+
+
+;
+
+
+app.get('/article-one',function (req, res){
       res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
     
 });
