@@ -20,13 +20,8 @@ var articleone= {
     title:"Article one gurucharan",
     heading:"guru article",
     date:"sept 25",
-    content :<p>
-    Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page
-    </p> 
-    <p>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page
-    </p>
-    <p>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page </p>
-              
+    
+    
 };
 
    app.get('/article-one',function (req, res){
