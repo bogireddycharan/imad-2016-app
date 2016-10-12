@@ -24,15 +24,43 @@ var articleone= {
     
    " <p> hi this is para under content</p>",
     
-    
-    
 };
 
+var htmlTemplate="
 
-
-
-
-
+    <html>
+    <head>
+        <title>
+            guru article-one
+        </title>
+        <link href="/ui/style.css" rel="stylesheet" />
+       
+            
+        </head>
+        <body>
+        <div class ="container">
+            <div>
+                <a href="/">intiki</a>
+                
+            </div>
+            
+            <div> 
+            <a href="www.gmail.com">gmail </a></div>
+            <div> <a href="www.facebook.com">fb</a>
+            </div>
+            <div><h2><b>article one</b> </h2>
+            <hr>
+            </div>
+            <div><p>>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page</p> >Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page<p>>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page </p> </div>
+            <div>
+                <div>sept 23 2016</div>
+                <p>hi ra</p> 
+                <p>chaale</p>
+            </div>
+        </div>    
+        </body>
+    
+</html> ";
 
 
 app.get('/article-one',function (req, res){
