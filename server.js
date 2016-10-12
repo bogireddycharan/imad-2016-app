@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) {.
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/', function (req, res) {
@@ -20,6 +20,10 @@ var articleone= {
     title:"Article one gurucharan",
     heading:"guru article",
     date:"sept 25",
+    content: 
+    
+   " <p> hi this is para under content</p>",
+    
     
     
 };
