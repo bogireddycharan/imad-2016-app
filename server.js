@@ -26,12 +26,14 @@ var articleone= {
     
 };
 
-var htmlTemplate="
+var htmlTemplate= 
+{
 
-    <html>
+<html>
     <head>
         <title>
-            guru article-one
+          ${title}
+       
         </title>
         <link href="/ui/style.css" rel="stylesheet" />
        
@@ -48,7 +50,7 @@ var htmlTemplate="
             <a href="www.gmail.com">gmail </a></div>
             <div> <a href="www.facebook.com">fb</a>
             </div>
-            <div><h2><b>article one</b> </h2>
+            <div><h2><b>${heading}</b> </h2>        
             <hr>
             </div>
             <div><p>>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page</p> >Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page<p>>Im guru ...this is my page>Im guru ...this is my page>Im guru ...this is my page </p> </div>
@@ -60,7 +62,9 @@ var htmlTemplate="
         </div>    
         </body>
     
-</html> ";
+</html>"
+
+ };
 
 
 app.get('/article-one',function (req, res){
